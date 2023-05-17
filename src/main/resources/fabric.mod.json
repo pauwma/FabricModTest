@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "refugio-testmod",
+  "version": "${version}",
+  "name": "refugio-testmod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/pauwm/refugio-testmod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/refugio-testmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.test.refugiotestmod.client.Refugio_testmodClient"
+    ],
+    "main": [
+      "org.test.refugiotestmod.Refugio_testmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

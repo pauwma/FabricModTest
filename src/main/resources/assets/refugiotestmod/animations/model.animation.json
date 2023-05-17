@@ -1,0 +1,154 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nebula.idle": {
+			"loop": true,
+			"animation_length": 4.8,
+			"bones": {
+				"base": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.6": {
+							"vector": [0, 0.5, 0],
+							"easing": "easeOutCubic"
+						},
+						"1.2": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutQuint"
+						},
+						"1.8": {
+							"vector": [0, 0.5, 0],
+							"easing": "easeOutCubic"
+						},
+						"2.4": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutQuint"
+						},
+						"3.0": {
+							"vector": [0, 0.5, 0],
+							"easing": "easeOutCubic"
+						},
+						"3.6": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutQuint"
+						},
+						"4.2": {
+							"vector": [0, 0.5, 0],
+							"easing": "easeOutCubic"
+						},
+						"4.8": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutQuint"
+						}
+					}
+				},
+				"propulsor": {
+					"rotation": {
+						"0.8": {
+							"vector": [0, 0, 0]
+						},
+						"1.2": {
+							"vector": [0, -90, 0],
+							"easing": "easeInBack"
+						},
+						"2.0": {
+							"vector": [0, -90, 0]
+						},
+						"2.4": {
+							"vector": [0, -180, 0],
+							"easing": "easeOutBack"
+						},
+						"3.2": {
+							"vector": [0, -180, 0]
+						},
+						"3.6": {
+							"vector": [0, -270, 0],
+							"easing": "easeInBack"
+						},
+						"4.4": {
+							"vector": [0, -270, 0]
+						},
+						"4.8": {
+							"vector": [0, -360, 0],
+							"easing": "easeOutBack"
+						}
+					}
+				}
+			}
+		},
+		"animation.nebula.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"base": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 1, 0],
+							"easing": "easeInBack"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBack"
+						}
+					}
+				},
+				"prop_interior": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -0.5, 0],
+							"easing": "easeInBack"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBack"
+						}
+					}
+				}
+			}
+		},
+		"animation.nebula.attack": {
+			"animation_length": 0.54167,
+			"bones": {
+				"base": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-7.5, 0, 0],
+							"easing": "easeInBack"
+						},
+						"0.3333": {
+							"vector": [7.5, 0, 0],
+							"easing": "easeInBack"
+						},
+						"0.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBack"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 1, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
